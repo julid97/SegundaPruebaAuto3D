@@ -191,6 +191,50 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
+--- !u!1 &318050583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 318050585}
+  - component: {fileID: 318050584}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &318050584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318050583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87781f3221ccdb543b887f5ecb1c32a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Manager
+--- !u!4 &318050585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318050583}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.68873, y: 1.12183, z: 19.8961}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,7 +1388,7 @@ GameObject:
   - component: {fileID: 1446342836}
   - component: {fileID: 1446342835}
   m_Layer: 0
-  m_Name: Carplayer
+  m_Name: CarPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1431,10 +1475,10 @@ MonoBehaviour:
   wheelCollider2: {fileID: 1192409779}
   wheelCollider3: {fileID: 1441186753}
   wheelCollider4: {fileID: 4175424}
-  wheelMesh1: {fileID: 0}
-  wheelMesh2: {fileID: 0}
-  wheelMesh3: {fileID: 0}
-  wheelMesh4: {fileID: 0}
+  wheelMesh1: {fileID: 2113015485487792146}
+  wheelMesh2: {fileID: 2113015485487887558}
+  wheelMesh3: {fileID: 2113015485487900640}
+  wheelMesh4: {fileID: 2113015485487838462}
   driveSpeed: 1000
   directionSpeed: 40
 --- !u!114 &1446342836
@@ -2438,7 +2482,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2113015485487792146
 Transform:
   m_ObjectHideFlags: 0
@@ -2447,8 +2491,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113015485487401400}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.14317131, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2650,3 +2694,4 @@ SceneRoots:
   - {fileID: 1236694635}
   - {fileID: 1446342834}
   - {fileID: 720156854}
+  - {fileID: 318050585}
