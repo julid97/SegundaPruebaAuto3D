@@ -488,37 +488,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!1 &457980406
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 457980407}
-  m_Layer: 0
-  m_Name: player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &457980407
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 457980406}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.7, y: 2.3, z: 20.12}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &720156850
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,6 +1252,10 @@ MonoBehaviour:
   wheelCollider2: {fileID: 0}
   wheelCollider3: {fileID: 0}
   wheelCollider4: {fileID: 0}
+  wheelMesh1: {fileID: 0}
+  wheelMesh2: {fileID: 0}
+  wheelMesh3: {fileID: 0}
+  wheelMesh4: {fileID: 0}
   driveSpeed: 0
   directionSpeed: 0
 --- !u!1 &1441186751
@@ -1458,6 +1431,10 @@ MonoBehaviour:
   wheelCollider2: {fileID: 1192409779}
   wheelCollider3: {fileID: 1441186753}
   wheelCollider4: {fileID: 4175424}
+  wheelMesh1: {fileID: 0}
+  wheelMesh2: {fileID: 0}
+  wheelMesh3: {fileID: 0}
+  wheelMesh4: {fileID: 0}
   driveSpeed: 1000
   directionSpeed: 40
 --- !u!114 &1446342836
@@ -2668,7 +2645,6 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 1871832261}
   - {fileID: 1485290776}
-  - {fileID: 457980407}
   - {fileID: 1314347052}
   - {fileID: 330585546}
   - {fileID: 1236694635}
