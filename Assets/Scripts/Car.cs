@@ -16,16 +16,16 @@ public class Car : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        float motor = moveInput.y * driveSpeed;
-        float steer = moveInput.x * directionSpeed;
+        float driveForce = moveInput.y * driveSpeed;
+        float turn = moveInput.x * directionSpeed;
 
-        wheelCollider1.motorTorque = motor;
-        wheelCollider2.motorTorque = motor;
-        wheelCollider3.motorTorque = motor;
-        wheelCollider4.motorTorque = motor;
+        wheelCollider1.motorTorque = driveForce;
+        wheelCollider2.motorTorque = driveForce;
+        wheelCollider3.motorTorque = driveForce;
+        wheelCollider4.motorTorque = driveForce;
 
-        wheelCollider1.steerAngle = steer;
-        wheelCollider2.steerAngle = steer;
+        wheelCollider1.steerAngle = turn;
+        wheelCollider2.steerAngle = turn;
     }
 
     private void OnMove(InputValue inputValue)
