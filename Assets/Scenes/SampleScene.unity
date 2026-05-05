@@ -1497,6 +1497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bd997eeea3f913488aae5829e9501c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimpleCarController
+  ShowTopMostFoldoutHeaderGroup: 1
   speed: 10
   turnSpeed: 100
 --- !u!54 &1446342838
